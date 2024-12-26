@@ -1,0 +1,81 @@
+version: "3.1"
+
+nlu:
+- intent: session_start
+  examples: |
+    - /start
+    - commencer
+    - démarrer
+
+- intent: greet
+  examples: |
+    - Bonjour
+    - Salut
+    - Coucou
+    - Hello
+
+- intent: nlu_fallback
+  examples: |
+    - Je ne comprends pas
+    - Je n'ai pas saisi
+    - Ce n'est pas clair
+    - Aucune idée
+    - ????
+    - xyz
+    -ewdwfegtrhdac
+    -ntznzlzgerey
+
+- intent: ask_faculty_info
+  examples: |
+    - Je veux des informations sur la faculté
+    - Peux-tu me donner des détails sur la faculté ?
+    - Dis-moi tout sur la faculté
+    - Quelles sont les spécialisations disponibles ?
+
+- intent: ask_contact
+  examples: |
+    - Comment puis-je contacter l'administration ?
+    - Donne-moi le numéro de l'administration
+    - J'ai besoin de contacter quelqu'un
+
+- intent: horaires_faculte
+  examples: |
+    - Quels sont les horaires d'ouverture de la bibliothèque ?
+    - À quelle heure ouvre la faculté ?
+    - Puis-je connaître les horaires de la faculté ?
+
+- intent: localisation_faculte
+  examples: |
+    - Où se trouve la faculté ?
+    - Quelle est l'adresse de la faculté ?
+    - Comment puis-je accéder à la faculté ?
+
+- intent: calendrier_academique
+  examples: |
+    - Quand commencent les examens ?
+    - Quel est le calendrier académique ?
+    - Quels sont les jours des examens du semestre ?
+
+- intent: inscription_preinscription
+  examples: |
+    - Comment puis-je m'inscrire pour l'année 2024-2025 ?
+    - Quelles sont les étapes pour s'inscrire ?
+    - Comment faire ma préinscription ?
+
+- intent: resultat_examens
+  examples: |
+    - Où puis-je voir mes résultats d'examen ?
+    - Comment accéder à mes notes ?
+    - Où consulter mes résultats académiques ?
+
+- intent: clubs_vie_etudiante
+  examples: |
+    - Quels clubs existent dans la faculté ?
+    - Quelles sont les activités parascolaires ?
+    - Quels événements sont organisés pour les étudiants ?
+
+- intent: services_etudiants
+  examples: |
+    - Comment accéder à la plateforme e-learning ?
+    - Où est la bibliothèque en ligne ?
+    - Quels services en ligne proposez-vous ?

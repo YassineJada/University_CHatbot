@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Chatbot Icon -->
+    <div id="chatbot-icon" onclick="toggleChat()">💬</div>
+
+    <!-- Chatbot Window -->
+    <div id="chatbot-window" class="hidden">
+        <div id="chatbot-header">
+            <img src="ex1.jpg" alt="Assistant Photo" id="chatbot-avatar">
+            <span>FSAC Assistant</span>
+            <button onclick="closeChat()">x</button>
+        </div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages"></div>
+            
+        </div>
+        <input type="text" id="user-input" placeholder="Type a message..." onkeydown="sendMessage(event)">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

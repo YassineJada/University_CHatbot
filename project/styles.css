@@ -1,0 +1,171 @@
+/* General Body and Chatbot Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Chatbot Icon */
+  #chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    background-color: #1A4770;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #chatbot-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Chatbot Window */
+  #chatbot-window {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    max-height: 450px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #chatbot-window.show {
+    display: flex;
+  }
+  
+  /* Header Styling */
+  #chatbot-header {
+    background: linear-gradient(45deg, #1A4770, #1A4770);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+  }
+  
+  #chatbot-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  #chatbot-header span {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  #chatbot-header button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #chatbot-header button:hover {
+    background-color: #ff6f61; /* Soft red for hover effect */
+  }
+  
+  /* Chatbot Body */
+  #chatbot-body {
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Messages */
+  .message {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .user {
+    background-color: #1A4770;
+    align-self: flex-end;
+    color: #ffffff;
+  }
+  
+  .bot {
+    background-color: #E5E5E5;
+    align-self: flex-start;
+  }
+  
+  /* Quick Replies */
+  .quick-replies {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .quick-reply {
+    background-color: #1A4770;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quick-reply:hover {
+    background-color: #1A4770;
+  }
+  
+  /* Input Area */
+/* Input Area (Zone de saisie) */
+#user-input {
+    width: 86%;
+    padding: 12px 20px;  /* Augmenter le padding pour un espacement plus large */
+    border: 2px solid #ddd;
+    border-radius: 50px;  /* Bordures plus arrondies pour un look moderne */
+    font-size: 1rem;
+    background-color: #f9f9f9;  /* Fond léger pour plus de clarté */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Ombre subtile */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;  /* Effet de transition pour focus */
+  }
+  
+  /* Effet de focus sur l'input */
+  #user-input:focus {
+    outline: none;  /* Retirer l'outline par défaut */
+    border-color: #1A4770;  /* Changer la couleur de la bordure lors du focus */
+    box-shadow: 0 4px 15px rgba(26, 115, 232, 0.4);  /* Ombre avec couleur plus forte pour focus */
+  }
+  
+  /* Effet de hover pour l'input */
+  #user-input:hover {
+    border-color: #ccc;  /* Changer légèrement la bordure au survol */
+  }
+  
+  

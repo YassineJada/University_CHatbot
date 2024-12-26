@@ -1,0 +1,58 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_faculty_info
+  - ask_contact
+  - horaires_faculte
+  - localisation_faculte
+  - calendrier_academique
+  - inscription_preinscription
+  - resultat_examens
+  - clubs_vie_etudiante
+  - services_etudiants
+  - session_start
+  - nlu_fallback
+
+entities: []
+
+responses:
+  utter_default:
+    - text: "Désolé, je n'ai pas compris. Pouvez-vous reformuler ?"
+
+  utter_greet:
+    - text: "Bonjour 👋, Je suis ton FSAC Assistant Comment puis-je vous aider ?"
+
+  utter_faculty_info:
+    - text: "Notre faculté propose des spécialisations en Data Science, Intelligence Artificielle, Développement Web et bien d'autres. Vous souhaitez plus de détails sur l'une d'elles ?"
+
+  utter_contact_info:
+    - text: "Vous pouvez contacter l'administration de la faculté au 05 22 33 44 55 ou par email à contact@faculte.exemple.com."
+  
+  utter_horaires_faculte:
+    - text: "La faculté est ouverte du lundi au vendredi de 8h00 à 18h00, et la bibliothèque est accessible de 9h00 à 20h00."
+
+  utter_localisation_faculte:
+    - text: "La faculté se situe au 123 Avenue Casablanca, près de la station Tramway X. Voici le lien Google Maps : [Lien vers la carte]."
+
+  utter_calendrier_academique:
+    - text: "Les examens du semestre débuteront le 15 janvier 2024. Consultez le calendrier complet ici : [Lien]."
+
+  utter_inscription_preinscription:
+    - text: "Pour s'inscrire pour l'année 2024-2025, veuillez suivre ce lien : [Portail d'inscription]. Les étapes y sont bien expliquées."
+
+  utter_resultat_examens:
+    - text: "Vous pouvez consulter vos résultats sur la plateforme des étudiants en suivant ce lien : [Portail des résultats]."
+
+  utter_clubs_vie_etudiante:
+    - text: "Notre faculté propose plusieurs clubs comme : Club Robotique, Club Culturel, et Club Sportif. Voulez-vous plus d'informations sur un club en particulier ?"
+
+  utter_services_etudiants:
+    - text: "Accédez aux services étudiants via ce lien : [Lien vers les plateformes e-learning, bibliothèque, etc.]."
+
+actions:
+  - action_welcome_message
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

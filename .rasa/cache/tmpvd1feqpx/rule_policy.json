@@ -1,0 +1,42 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"registration\"}}]": "utter_registration",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"registration\"}}, {\"prev_action\": {\"action_name\": \"utter_registration\"}, \"user\": {\"intent\": \"registration\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"orientation\"}}]": "utter_orientation",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"orientation\"}}, {\"prev_action\": {\"action_name\": \"utter_orientation\"}, \"user\": {\"intent\": \"orientation\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"contact\"}}]": "utter_contact",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"contact\"}}, {\"prev_action\": {\"action_name\": \"utter_contact\"}, \"user\": {\"intent\": \"contact\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_services\"}}]": "utter_student_services",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_services\"}}, {\"prev_action\": {\"action_name\": \"utter_student_services\"}, \"user\": {\"intent\": \"student_services\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"platforms\"}}]": "utter_platforms",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"platforms\"}}, {\"prev_action\": {\"action_name\": \"utter_platforms\"}, \"user\": {\"intent\": \"platforms\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_life\"}}]": "utter_student_life",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_life\"}}, {\"prev_action\": {\"action_name\": \"utter_student_life\"}, \"user\": {\"intent\": \"student_life\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pre_registration\"}}]": "utter_pre_registration",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pre_registration\"}}, {\"prev_action\": {\"action_name\": \"utter_pre_registration\"}, \"user\": {\"intent\": \"pre_registration\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_services\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_life\"}}, {\"prev_action\": {\"action_name\": \"utter_student_life\"}, \"user\": {\"intent\": \"student_life\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"platforms\"}}, {\"prev_action\": {\"action_name\": \"utter_platforms\"}, \"user\": {\"intent\": \"platforms\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"platforms\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pre_registration\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"contact\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_life\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"contact\"}}, {\"prev_action\": {\"action_name\": \"utter_contact\"}, \"user\": {\"intent\": \"contact\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"orientation\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"registration\"}}, {\"prev_action\": {\"action_name\": \"utter_registration\"}, \"user\": {\"intent\": \"registration\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"student_services\"}}, {\"prev_action\": {\"action_name\": \"utter_student_services\"}, \"user\": {\"intent\": \"student_services\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pre_registration\"}}, {\"prev_action\": {\"action_name\": \"utter_pre_registration\"}, \"user\": {\"intent\": \"pre_registration\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"registration\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"orientation\"}}, {\"prev_action\": {\"action_name\": \"utter_orientation\"}, \"user\": {\"intent\": \"orientation\"}}]"
+    ]
+  }
+}

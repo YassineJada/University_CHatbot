@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: Démarrage de la session - Message de bienvenue
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Fallback au cas où l'intention n'est pas reconnue
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default

@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+- story: say_hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: provide_faculty_info
+  steps:
+  - intent: ask_faculty_info
+  - action: utter_faculty_info
+
+- story: provide_contact_info
+  steps:
+  - intent: ask_contact
+  - action: utter_contact_info
+
+- story: demander horaires faculte
+  steps:
+  - intent: horaires_faculte
+  - action: utter_horaires_faculte
+
+- story: demander localisation faculte
+  steps:
+  - intent: localisation_faculte
+  - action: utter_localisation_faculte
+
+- story: consulter calendrier academique
+  steps:
+  - intent: calendrier_academique
+  - action: utter_calendrier_academique
+
+- story: demander inscription
+  steps:
+  - intent: inscription_preinscription
+  - action: utter_inscription_preinscription
+
+- story: consulter resultats examens
+  steps:
+  - intent: resultat_examens
+  - action: utter_resultat_examens
+
+- story: demander clubs vie etudiante
+  steps:
+  - intent: clubs_vie_etudiante
+  - action: utter_clubs_vie_etudiante
+
+- story: demander acces plateformes
+  steps:
+  - intent: services_etudiants
+  - action: utter_services_etudiants
