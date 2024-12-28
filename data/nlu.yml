@@ -6,6 +6,24 @@ nlu:
     - /start
     - lancer la session
     - démarrer
+    - commence
+    - ouvrir la session
+    - démarrer la conversation
+    - je commence
+    - débuter la session
+    - commencer la discussion
+    - ouvrir une nouvelle session
+    - relancer la session
+    - mettre en marche
+    - démarrer la plateforme
+    - activer la session
+    - commencer maintenant
+    - initier la session
+    - ouvrir une nouvelle conversation
+    - commencer la chat session
+    - lancer la discussion
+    - débuter la session maintenant
+    - ouvrir la session de chat
 
 - intent: greet
   examples: |
@@ -13,6 +31,23 @@ nlu:
     - Salut
     - Coucou
     - Hello
+    - Salut tout le monde
+    - Hi
+    - Bonjour, comment ça va ?
+    - Hé, bonjour !
+    - Salut, comment vas-tu ?
+    - Bonjour, tout va bien ?
+    - Coucou, ça va ?
+    - Bonsoir
+    - Salut tout le monde !
+    - Bonjour, comment allez-vous ?
+    - Hé, comment vas-tu ?
+    - Hello, ça va ?
+    - Salut, quel temps il fait ?
+    - Bonsoir tout le monde
+    - Salut à tous
+    - Hé, comment ça se passe ?
+    - Bonjour à toi
 
 - intent: nlu_fallback
   examples: |
@@ -20,10 +55,24 @@ nlu:
     - Je n'ai pas saisi
     - Ce n'est pas clair
     - Aucune idée
-    - ????
+    - ???? 
     - xyz
-    -ewdwfegtrhdac
-    -ntznzlzgerey
+    - ewdwfegtrhdac
+    - ntznzlzgerey
+    - C'est flou
+    - Pardon, je ne comprends rien
+    - Désolé, je n'ai pas saisi ce que tu veux dire
+    - Je suis perdu
+    - Je ne suis pas sûr de ce que tu veux dire
+    - Je ne sais pas de quoi tu parles
+    - Ce n'est pas évident
+    - Ce n'est pas très clair pour moi
+    - Pouvez-vous reformuler ?
+    - Je n'arrive pas à comprendre
+    - C'est un peu confus pour moi
+    - Je ne vois pas ce que tu veux dire
+    - Tu pourrais expliquer autrement ?
+    - Je n'ai pas bien saisi la question
 
 - intent: ask_faculty_info
   examples: |
@@ -31,51 +80,274 @@ nlu:
     - Peux-tu me donner des détails sur la faculté ?
     - Dis-moi tout sur la faculté
     - Quelles sont les spécialisations disponibles ?
+    - Que puis-je étudier à la faculté des sciences ?
+    - Quels programmes offre la faculté ?
+    - Quelles filières sont disponibles à la faculté ?
+    - Peux-tu me parler de la faculté ?
+    - Quelles formations sont proposées à la faculté ?
+    - Donne-moi un aperçu de la faculté
+    - J’aimerais en savoir plus sur la faculté
+    - Quelles spécialisations puis-je choisir ?
+    - Quels départements existent à la faculté ?
+    - Quelle est la mission de la faculté ?
+    - Quelles sont les disciplines enseignées ?
+    - Quels sont les domaines de recherche à la faculté ?
+    - Peux-tu me donner une idée des programmes ?
+    - Y a-t-il des départements en sciences informatiques ?
+    - Quelles sont les options disponibles pour les étudiants ?
+    - J’ai besoin de savoir tout sur les programmes
 
 - intent: ask_contact
   examples: |
     - Comment puis-je contacter l'administration ?
     - Donne-moi le numéro de l'administration
     - J'ai besoin de contacter quelqu'un
+    - Comment obtenir un contact à la faculté ?
+    - Quelle est l'adresse email de l'administration ?
+    - Comment joindre le secrétariat ?
+    - Où puis-je trouver les contacts de l'administration ?
+    - Peux-tu me fournir les coordonnées de l'administration ?
+    - Quel est le téléphone pour joindre la faculté ?
+    - Je cherche à contacter l'administration
+    - Comment appeler la faculté ?
+    - Quel est le moyen le plus rapide pour joindre le secrétariat ?
+    - Peux-tu me donner un contact direct ?
+    - J’ai besoin d’un contact avec un responsable
+    - Où puis-je envoyer un email à l’administration ?
+    - Quel est le service à contacter pour les inscriptions ?
+    - Donne-moi le numéro de téléphone du secrétariat
+    - Peux-tu m’envoyer le contact administratif ?
+    - Quel est le moyen pour joindre les professeurs ?
+    - Qui dois-je contacter pour mes démarches administratives ?
 
 - intent: horaires_faculte
   examples: |
     - Quels sont les horaires d'ouverture de la bibliothèque ?
     - À quelle heure ouvre la faculté ?
     - Puis-je connaître les horaires de la faculté ?
+    - À quelle heure commence la journée à la faculté ?
+    - Quelle est l'heure de fermeture de la faculté ?
+    - Quelles sont les heures d'ouverture du service étudiant ?
+    - Quand la bibliothèque ferme-t-elle ?
+    - Quels sont les horaires du secrétariat ?
+    - À quelle heure commence la première classe ?
+    - À quelle heure ferme la bibliothèque ?
+    - Quelle est l'heure d'ouverture de la cafétéria ?
+    - Est-ce que la faculté est ouverte le week-end ?
+    - À quelle heure le campus ferme-t-il ?
+    - Quelles sont les heures des cours ?
+    - Quand est-ce que la faculté ouvre ses portes ?
+    - À quel moment commence la journée académique ?
+    - Est-ce que les cours commencent tôt le matin ?
+    - Quels sont les horaires de cours cette semaine ?
+    - La bibliothèque est-elle ouverte toute la journée ?
+    - Quand sont les heures de disponibilité des professeurs ?
 
 - intent: localisation_faculte
   examples: |
     - Où se trouve la faculté ?
     - Quelle est l'adresse de la faculté ?
     - Comment puis-je accéder à la faculté ?
+    - Où est située la faculté des sciences ?
+    - Peux-tu me dire où se trouve la faculté ?
+    - Comment arriver à la faculté ?
+    - Donne-moi l'adresse exacte de la faculté
+    - Où se situe l'établissement ?
+    - La faculté est-elle loin d'ici ?
+    - Est-ce que la faculté est proche de la gare ?
+    - Où est le bâtiment de la faculté ?
+    - Est-ce que je dois prendre un bus pour la faculté ?
+    - La faculté se trouve-t-elle près de la station de métro ?
+    - Quel est le chemin pour se rendre à la faculté ?
+    - Donne-moi l'itinéraire pour arriver à la faculté
+    - La faculté est-elle facilement accessible ?
+    - Quelles sont les indications pour la faculté ?
+    - Peux-tu me donner la localisation exacte ?
+    - La faculté est-elle à côté du centre-ville ?
+    - Comment se rendre à la faculté depuis l’aéroport ?
 
 - intent: calendrier_academique
   examples: |
     - Quand commencent les examens ?
     - Quel est le calendrier académique ?
     - Quels sont les jours des examens du semestre ?
+    - Peux-tu me donner la date des examens ?
+    - Quand commence la rentrée ?
+    - Quelle est la date de la fin des cours ?
+    - Quand commencent les vacances ?
+    - Quels sont les jours fériés dans le calendrier universitaire ?
+    - Quand est la date limite pour les inscriptions ?
+    - Quels sont les jours des vacances scolaires ?
+    - Quand commence le semestre prochain ?
+    - Y a-t-il des pauses entre les examens ?
+    - Quand débutent les cours ?
+    - À quelle date les examens finaux commencent-ils ?
+    - Quand est-ce que les étudiants rentrent ?
+    - Peux-tu me donner la date des vacances ?
+    - Quand la session d’examens commence-t-elle ?
+    - Est-ce qu'il y a des jours fériés pendant le semestre ?
+    - Quelle est la date de début des cours ?
+    - Les examens se déroulent-ils pendant les vacances ?
 
 - intent: inscription_preinscription
   examples: |
     - Comment puis-je m'inscrire pour l'année 2024-2025 ?
     - Quelles sont les étapes pour s'inscrire ?
     - Comment faire ma préinscription ?
+    - Où puis-je faire mon inscription ?
+    - Quelles démarches pour l'inscription ?
+    - Comment procéder pour s'inscrire ?
+    - Quand commence la période d'inscription ?
+    - Quelles sont les conditions pour s'inscrire ?
+    - Est-ce que je peux m'inscrire en ligne ?
+    - Où puis-je obtenir le formulaire d'inscription ?
+    - Quels documents sont nécessaires pour l'inscription ?
+    - Peux-tu me dire comment m’inscrire ?
+    - Quels sont les prérequis pour l'inscription ?
+    - L'inscription est-elle ouverte toute l'année ?
+    - Quand dois-je soumettre mes documents pour l'inscription ?
+    - Quels sont les délais d’inscription ?
+    - Quelles sont les formalités pour l’inscription ?
+    - Peux-tu me dire comment faire ma préinscription ?
+    - Quelles sont les étapes à suivre pour l’inscription ?
+    - Comment procéder à l'inscription en ligne ?
 
 - intent: resultat_examens
   examples: |
     - Où puis-je voir mes résultats d'examen ?
     - Comment accéder à mes notes ?
     - Où consulter mes résultats académiques ?
+    - Quand vais-je recevoir mes résultats ?
+    - Comment connaître mes résultats d'examen ?
+    - Où sont publiés les résultats ?
+    - Est-ce que mes résultats sont en ligne ?
+    - Quand les résultats des examens seront-ils disponibles ?
+    - Où puis-je consulter mes résultats ?
+    - Quels sont les résultats du dernier examen ?
+    - Est-ce que les résultats sont envoyés par email ?
+    - Je n'arrive pas à trouver mes résultats
+    - Où puis-je consulter mes notes ?
+    - Quand serai-je informé de mes résultats ?
+    - Peux-tu m'aider à trouver mes résultats ?
+    - Quels sont mes résultats pour cet examen ?
+    - Comment savoir si j'ai réussi ?
+    - Les résultats sont-ils accessibles sur la plateforme ?
+    - Je cherche à voir mes résultats d'examen en ligne
+    - Comment consulter mes résultats sur le site ?
 
 - intent: clubs_vie_etudiante
   examples: |
     - Quels clubs existent dans la faculté ?
     - Quelles sont les activités parascolaires ?
     - Quels événements sont organisés pour les étudiants ?
+    - Y a-t-il des clubs sportifs ?
+    - Existe-t-il des associations étudiantes ?
+    - Quels types d'événements sont organisés ?
+    - Quelles activités sont proposées pour les étudiants ?
+    - Où puis-je m'inscrire à un club ?
+    - Y a-t-il des clubs pour les étudiants en informatique ?
+    - Quelles sont les possibilités de participer à des événements ?
+    - Quels événements vont avoir lieu cette année ?
+    - Peux-tu me dire quels clubs sont disponibles ?
+    - Comment rejoindre un club à la faculté ?
+    - Où puis-je trouver plus d'informations sur les clubs ?
+    - Y a-t-il des clubs culturels à la faculté ?
+    - Quels sont les clubs populaires dans la faculté ?
+    - Les étudiants peuvent-ils organiser des événements ?
+    - Quels sont les avantages de rejoindre un club ?
+    - Quelles activités étudiantes sont à venir ?
+    - Y a-t-il un club de lecture ou une bibliothèque ?
 
 - intent: services_etudiants
   examples: |
     - Comment accéder à la plateforme e-learning ?
     - Où est la bibliothèque en ligne ?
     - Quels services en ligne proposez-vous ?
+    - Quelles ressources sont disponibles pour les étudiants ?
+    - Où puis-je trouver des cours en ligne ?
+    - Est-ce que la faculté offre un service de tutorat en ligne ?
+    - Y a-t-il des services d'assistance académique ?
+    - Quels sont les outils en ligne pour les étudiants ?
+    - La faculté propose-t-elle un service de mentorat ?
+    - Comment accéder à la plateforme d'e-learning ?
+    - Quels services sont offerts aux étudiants ?
+    - La faculté a-t-elle des plateformes pour la gestion des cours ?
+    - Est-ce que des applications sont mises à disposition des étudiants ?
+    - Comment puis-je accéder à la bibliothèque numérique ?
+    - Où puis-je consulter les ressources pédagogiques en ligne ?
+    - Les étudiants ont-ils un accès gratuit à certains logiciels ?
+    - Peux-tu m'expliquer les services d'assistance en ligne ?
+    - Où puis-je trouver les résultats de mes devoirs ?
+    - Y a-t-il des tutoriels vidéo disponibles pour les étudiants ?
+    - Quels services sont disponibles sur la plateforme en ligne ?
+
+- intent: ask_courses
+  examples: |
+    - Quels sont les cours offerts cette année ?
+    - Quelles sont les formations disponibles à la faculté ?
+    - Pouvez-vous me dire les cours proposés ?
+    - J'aimerais connaître les cours dans la faculté des sciences
+    - Quelles spécialisations sont offertes ?
+    - Est-ce que vous proposez des cours en Data Science ?
+    - Quels cours puis-je suivre dans cette faculté ?
+    - Quels programmes sont offerts en informatique ?
+    - Quelles sont les matières étudiées à la faculté ?
+    - Quelles options puis-je choisir cette année ?
+    - Quels sont les cours disponibles pour les étudiants en 2e année ?
+    - Quels cours sont accessibles pour les nouveaux étudiants ?
+    - Existe-t-il des cours en ligne disponibles cette année ?
+    - Quels modules sont obligatoires dans mon programme ?
+    - Quelles matières sont enseignées dans le programme de génie logiciel ?
+    - Quels cours sont proposés en mathématiques ?
+    - Quels cours sont offerts en sciences naturelles ?
+    - Puis-je voir la liste complète des cours ?
+    - Y a-t-il des cours d'option en économie ?
+    - Quels sont les cours d'introduction aux sciences informatiques ?
+
+- intent: ask_professors
+  examples: |
+    - Qui sont les professeurs de la faculté ?
+    - Pouvez-vous me donner les noms des professeurs ?
+    - Quel est le contact des professeurs de la faculté ?
+    - J'aimerais savoir qui sont les professeurs de chaque département
+    - Qui enseigne en Data Science à la faculté ?
+    - Quels sont les professeurs dans le département d'informatique ?
+    - Peux-tu me dire quels professeurs enseignent en génie logiciel ?
+    - Qui enseigne les mathématiques appliquées ?
+    - Où puis-je trouver des informations sur les professeurs ?
+    - Comment contacter les professeurs de ma spécialisation ?
+    - Y a-t-il un annuaire des professeurs disponible ?
+    - Qui est responsable du département des sciences ?
+    - Quelles sont les coordonnées des professeurs ?
+    - Qui enseigne le cours de statistiques ?
+    - Quels professeurs sont spécialisés en IA ?
+    - Peux-tu me dire quel professeur est en charge de ce module ?
+    - Comment contacter un professeur pour une question ?
+    - Quels sont les horaires de consultation des professeurs ?
+    - Comment obtenir des informations sur les professeurs invités ?
+    - Existe-t-il un bureau des professeurs à la faculté ?
+
+- intent: ask_events
+  examples: |
+    - Quelles sont les événements à venir dans la faculté ?
+    - Y a-t-il des événements organisés cette année ?
+    - Pouvez-vous m'informer sur les événements ?
+    - Quels événements sont prévus dans la faculté ?
+    - Est-ce qu'il y a des conférences cette année ?
+    - Y a-t-il des ateliers ou des séminaires à venir ?
+    - Quels événements sont à ne pas manquer cette année ?
+    - Quand auront lieu les prochains événements ?
+    - Quels événements sont organisés pour les étudiants cette année ?
+    - Y a-t-il un salon de l'étudiant cette année ?
+    - Est-ce qu'il y a des événements scientifiques ?
+    - Quels événements culturels sont organisés ?
+    - Peut-on assister à des conférences en ligne ?
+    - Quels sont les événements liés à l'innovation ?
+    - Y a-t-il des forums étudiants prévus ?
+    - Quels événements sont organisés pour célébrer la rentrée ?
+    - Quand auront lieu les journées portes ouvertes ?
+    - Est-ce qu'il y a des événements pour les nouveaux étudiants ?
+    - Y a-t-il des événements sur le développement personnel ?
+    - Quels sont les événements majeurs à venir cette année ?
+
+

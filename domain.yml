@@ -13,6 +13,9 @@ intents:
   - services_etudiants
   - session_start
   - nlu_fallback
+  - ask_courses  # Nouvelle intention pour demander les cours
+  - ask_professors  # Nouvelle intention pour demander les professeurs
+  - ask_events 
 
 entities: []
 
@@ -49,6 +52,15 @@ responses:
 
   utter_services_etudiants:
     - text: "Accédez aux services étudiants via ce lien : [Lien vers les plateformes e-learning, bibliothèque, etc.]."
+  
+  utter_ask_courses:
+    - text: "Cette année, nous proposons des cours en Data Science, Intelligence Artificielle, Développement Web, et bien plus. Souhaitez-vous des détails sur un cours spécifique ?"
+  
+  utter_ask_professors:
+    - text: "Les professeurs de la faculté sont issus des différents départements comme Informatique, Mathématiques et Physique. Voulez-vous les informations sur un professeur en particulier ?"
+  
+  utter_ask_events:
+    - text: "Nous avons plusieurs événements à venir comme des conférences, des ateliers et des journées portes ouvertes. Voulez-vous connaître les détails d'un événement spécifique ?"
 
 actions:
   - action_session_start
