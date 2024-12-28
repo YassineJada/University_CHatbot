@@ -1,10 +1,12 @@
 version: "3.1"
 
 rules:
-  - rule: Démarrage de la session - Message de bienvenue
+  - rule: Démarrage de la session avec message de bienvenue
     steps:
-      - intent: greet
+      - intent: session_start
+      - action: action_session_start
       - action: utter_greet
+
 
   - rule: Fallback au cas où l'intention n'est pas reconnue
     steps:

@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJz85ESiXCFaUlphcmlOSWlsbCwC2WiGz": "utter_localisation_faculte",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJz85ESiXCFaUlphcmlOSWkvAyNKSktSieKw6iTQ/FgBXTEch": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLW4GCRfXJJYVFJbGwsA1coe/w==": "action_welcome_message",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLW4GCRfXJJYVFJLnFnlqTnJ+bmp8blAvYnpqQQNjQUAkH8/7g==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhKLW4NKcksSQ+tQKoPK+4tjYWADSYIDI=": "utter_resultat_examens",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhKLW4NKcksSQ+tQKoPK+4loBxpSUlqUXxGLqIMDcWACknQp4=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoByCvLTE4tjk8tKU3JTMwrKa6tjQUAdU8hAg==": "utter_services_etudiants",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoByCvLTE4tjk8tKU3JTMwrKa4lYGBpSUlqUTwWfUSZHQsAwvFFDg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI78oMbMotTg+LTG5NKcktbY2FgAyryAO": "utter_horaires_faculte",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI78oMbMotTg+LTG5NKcktZaAcaUlJalF8Ri6iDA3FgASREIy": "action_listen",
+    "eJwti9EJwCAMBVfJAJ3AVUqRoO8joGkbtT/i7g20f3dwt8+10bwMT+TU5dRA84OoXBHolyKtQ70dDeaNqGsPlLhAswnMf86ocg+sdbzVqSH1": "utter_calendrier_academique",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOTEnNS+lKDO1CKg/MSU1N7OwNLWWgJmlJSVA9di1EmtDLAAU6Efn": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOac0qTi+LDM1PrWkNCUzEShcWxsLAJT1IUw=": "utter_clubs_vie_etudiante",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohOac0qTi+LDM1PrWkNCUzEShcS8DE0pKS1KJ4bBqJMz0WAIILRew=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohM684uSizAKwGaAoSt7Y2FgCNTCR4": "utter_inscription_preinscription",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohM684uSizAKwGaAoSt5aAwaUlJalF8Xj0k2RXLADrDE9w": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnJ9XAlRWWxsLAJacHfg=": "utter_contact_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnJ9XAlRWS8Ck0pKS1CKY4vjMvLR8AsbFAgCIBzxd": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2flphcmlNSGZ+Zl5ZfWxsLADIrIA8=": "utter_faculty_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2flphcmlNSGZ+Zl5ZfS8C40pKS1CJUHUSYGQsACIdAlw==": "action_listen"
+  }
+}

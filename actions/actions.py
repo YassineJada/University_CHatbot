@@ -1,10 +1,18 @@
 from rasa_sdk import Action
-from rasa_sdk.events import EventType
+from rasa_sdk.events import SessionStarted, ActionExecuted, EventType
 
-class ActionWelcomeMessage(Action):
+class ActionSessionStart(Action):
     def name(self) -> str:
-        return "action_welcome_message"
+        return "action_session_start"
 
-    def run(self, dispatcher, tracker, domain) -> list[EventType]:
-        dispatcher.utter_message(text="Bonjour 👋, Je suis ton FSAC Assistant. Comment puis-je vous aider ?")
-        return []
+    async def run(self, dispatcher, tracker, domain) -> list[EventType]:
+        # Démarre une nouvelle session
+        events = [SessionStarted()]
+        
+        # Envoie le message de bienvenue
+        dispatcher.utter_message(response="utter_greet")
+        
+        # Attend la prochaine interaction
+        events.append(ActionExecuted("action_listen"))
+        
+        return events

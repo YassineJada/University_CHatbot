@@ -1,9 +1,10 @@
 version: "3.1"
 
 stories:
-- story: say_hello
+- story: Session Start Story
   steps:
-  - intent: greet
+  - intent: session_start
+  - action: action_session_start
   - action: utter_greet
 
 - story: provide_faculty_info

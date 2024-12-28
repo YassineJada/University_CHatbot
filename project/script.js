@@ -4,7 +4,7 @@ function toggleChat() {
   
   if (window.classList.contains("show")) {
       // Envoyer le message de bienvenue
-      fetchBotResponse("/utter_greet");
+      fetchBotResponse("/session_start");
   } else {
       // Réinitialiser la fenêtre de chat en fermant
       resetChat();

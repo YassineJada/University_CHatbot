@@ -51,7 +51,7 @@ responses:
     - text: "Accédez aux services étudiants via ce lien : [Lien vers les plateformes e-learning, bibliothèque, etc.]."
 
 actions:
-  - action_welcome_message
+  - action_session_start
 
 session_config:
   session_expiration_time: 60
